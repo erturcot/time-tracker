@@ -39,10 +39,9 @@ public class TimeEntry {
 
     @Override
     public final String toString() {
-        return "TimeEntry{" +
+        return "TimeEntry{"
                 + "description='" + description + '\''
                 + ", rate=" + rate
-                + ", time=" + time
-                + '}';
+                + ", time=" + time + '}';
     }
 }
