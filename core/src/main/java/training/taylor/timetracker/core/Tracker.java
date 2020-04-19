@@ -19,11 +19,11 @@ public class Tracker {
         entries.remove(entry);
     }
 
-    public int size() {
+    public final int size() {
         return entries.size();
     }
 
-    public TimeEntry get(final int index) {
+    public final TimeEntry get(final int index) {
         return entries.get(index);
     }
 }
